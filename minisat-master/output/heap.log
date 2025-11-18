@@ -1,0 +1,36 @@
+[HEAP_DEBUG] dumpDecisionHeap(before_solve)
+HEAP SNAPSHOT [before_solve] size=16 (of 16 in-heap)
+  #0  v=0  act=0  decision=1  assigned=0
+  #1  v=1  act=0  decision=1  assigned=0
+  #2  v=2  act=0  decision=1  assigned=0
+  #3  v=3  act=0  decision=1  assigned=0
+  #4  v=4  act=0  decision=1  assigned=0
+  #5  v=5  act=0  decision=1  assigned=0
+  #6  v=6  act=0  decision=1  assigned=0
+  #7  v=7  act=0  decision=1  assigned=0
+  #8  v=8  act=0  decision=1  assigned=0
+  #9  v=9  act=0  decision=1  assigned=0
+  #10  v=10  act=0  decision=1  assigned=0
+  #11  v=11  act=0  decision=1  assigned=0
+  #12  v=12  act=0  decision=1  assigned=0
+  #13  v=13  act=0  decision=1  assigned=0
+  #14  v=14  act=0  decision=1  assigned=0
+  #15  v=15  act=0  decision=1  assigned=0
+[HEAP_DEBUG] dumpDecisionHeap(after_solve)
+HEAP SNAPSHOT [after_solve] size=16 (of 16 in-heap)
+  #0  v=3  act=1  decision=1  assigned=0
+  #1  v=5  act=1  decision=1  assigned=0
+  #2  v=7  act=1  decision=1  assigned=0
+  #3  v=8  act=1  decision=1  assigned=0
+  #4  v=15  act=1  decision=1  assigned=0
+  #5  v=0  act=0  decision=1  assigned=0
+  #6  v=1  act=0  decision=1  assigned=0
+  #7  v=2  act=0  decision=1  assigned=0
+  #8  v=4  act=0  decision=1  assigned=0
+  #9  v=6  act=0  decision=1  assigned=0
+  #10  v=9  act=0  decision=1  assigned=0
+  #11  v=10  act=0  decision=1  assigned=0
+  #12  v=11  act=0  decision=1  assigned=0
+  #13  v=12  act=0  decision=1  assigned=0
+  #14  v=13  act=0  decision=1  assigned=0
+  #15  v=14  act=0  decision=1  assigned=0

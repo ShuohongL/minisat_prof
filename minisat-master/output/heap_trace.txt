@@ -1,0 +1,139 @@
+insert: vid =0
+Heap content after INSERT: [0]
+Indices array: [0, 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 577, 0]
+insert: vid =1
+Heap content after INSERT: [0, 1]
+Indices array: [0, 1, 0, 0, 0, 0, 33, 0, 0, 1, 0, 0, 0, 0, 81, 0]
+insert: vid =2
+Heap content after INSERT: [0, 1, 2]
+Indices array: [0, 1, 2, 0, 0, 0, 33, 0, 0, 1, 2, 0, 0, 0, 145, 0]
+insert: vid =3
+Heap content after INSERT: [0, 1, 2, 3]
+Indices array: [0, 1, 2, 3, 0, 0, 33, 0, 0, 1, 2, 3, 0, 0, 145, 0]
+insert: vid =4
+Heap content after INSERT: [0, 1, 2, 3, 4]
+Indices array: [0, 1, 2, 3, 4, 0, -1, 0, 48, 0, 97, 0, 14634720, 0, 5846499, 0]
+insert: vid =5
+Heap content after INSERT: [0, 1, 2, 3, 4, 5]
+Indices array: [0, 1, 2, 3, 4, 5, -1, 0, 48, 0, 97, 0, 14634720, 0, 5846499, 0]
+insert: vid =6
+Heap content after INSERT: [0, 1, 2, 3, 4, 5, 6]
+Indices array: [0, 1, 2, 3, 4, 5, 6, 0, 48, 0, 97, 0, 14634720, 0, 5846499, 0]
+insert: vid =7
+Heap content after INSERT: [0, 1, 2, 3, 4, 5, 6, 7]
+Indices array: [0, 1, 2, 3, 4, 5, 6, 7, 48, 0, 97, 0, 14634720, 0, 5846499, 0]
+insert: vid =8
+Heap content after INSERT: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+Indices array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 0, 0, 0, 0, 0, 129, 0]
+insert: vid =9
+Heap content after INSERT: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Indices array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 0, 0, 0, 129, 0]
+insert: vid =10
+Heap content after INSERT: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Indices array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 0, 0, 0, 129, 0]
+insert: vid =11
+Heap content after INSERT: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+Indices array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 0, 0, 497, 0]
+insert: vid =12
+Heap content after INSERT: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Indices array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 0, 497, 0]
+insert: vid =13
+Heap content after INSERT: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+Indices array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 497, 0]
+insert: vid =14
+Heap content after INSERT: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Indices array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 0]
+insert: vid =15
+Heap content after INSERT: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Indices array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+rebuilding the heap
+Heap content after REBUILD: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+removing max: vid = 0
+Heap content after REMOVE_MIN: [15, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+removing max: vid = 15
+Heap content after REMOVE_MIN: [14, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+removing max: vid = 14
+Heap content after REMOVE_MIN: [13, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+removing max: vid = 13
+Heap content after REMOVE_MIN: [12, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+removing max: vid = 12
+Heap content after REMOVE_MIN: [11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+removing max: vid = 11
+Heap content after REMOVE_MIN: [10, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+removing max: vid = 10
+Heap content after REMOVE_MIN: [9, 1, 2, 3, 4, 5, 6, 7, 8]
+removing max: vid = 9
+Heap content after REMOVE_MIN: [8, 1, 2, 3, 4, 5, 6, 7]
+removing max: vid = 8
+Heap content after REMOVE_MIN: [7, 1, 2, 3, 4, 5, 6]
+removing max: vid = 7
+Heap content after REMOVE_MIN: [6, 1, 2, 3, 4, 5]
+percolating up: vid = 3
+Heap content after DECREASE: [3, 6, 2, 1, 4, 5]
+percolating up: vid = 5
+Heap content after DECREASE: [3, 6, 5, 1, 4, 2]
+insert: vid =7
+Heap content after INSERT: [3, 6, 5, 1, 4, 2, 7]
+Indices array: [-1, 3, 5, 0, 4, 2, 1, 6, -1, -1, -1, -1, -1, -1, -1, -1]
+removing max: vid = 3
+Heap content after REMOVE_MIN: [7, 6, 5, 1, 4, 2]
+removing max: vid = 7
+Heap content after REMOVE_MIN: [5, 6, 2, 1, 4]
+removing max: vid = 5
+Heap content after REMOVE_MIN: [4, 6, 2, 1]
+removing max: vid = 4
+Heap content after REMOVE_MIN: [1, 6, 2]
+removing max: vid = 1
+Heap content after REMOVE_MIN: [2, 6]
+removing max: vid = 2
+Heap content after REMOVE_MIN: [6]
+removing max: vid = 6
+Heap content after REMOVE_MIN: []
+insert: vid =6
+Heap content after INSERT: [6]
+Indices array: [-1, -1, -1, -1, -1, -1, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+insert: vid =1
+Heap content after INSERT: [6, 1]
+Indices array: [-1, 1, -1, -1, -1, -1, 0, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+insert: vid =3
+Heap content after INSERT: [3, 1, 6]
+Indices array: [-1, 1, -1, 0, -1, -1, 2, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+insert: vid =7
+Heap content after INSERT: [3, 7, 6, 1]
+Indices array: [-1, 3, -1, 0, -1, -1, 2, 1, -1, -1, -1, -1, -1, -1, -1, -1]
+insert: vid =4
+Heap content after INSERT: [3, 7, 6, 1, 4]
+Indices array: [-1, 3, -1, 0, 4, -1, 2, 1, -1, -1, -1, -1, -1, -1, -1, -1]
+insert: vid =2
+Heap content after INSERT: [3, 7, 6, 1, 4, 2]
+Indices array: [-1, 3, 5, 0, 4, -1, 2, 1, -1, -1, -1, -1, -1, -1, -1, -1]
+insert: vid =8
+Heap content after INSERT: [3, 7, 8, 1, 4, 2, 6]
+Indices array: [-1, 3, 5, 0, 4, -1, 6, 1, 2, -1, -1, -1, -1, -1, -1, -1]
+insert: vid =9
+Heap content after INSERT: [3, 7, 8, 1, 4, 2, 6, 9]
+Indices array: [-1, 3, 5, 0, 4, -1, 6, 1, 2, 7, -1, -1, -1, -1, -1, -1]
+insert: vid =5
+Heap content after INSERT: [3, 7, 8, 5, 4, 2, 6, 9, 1]
+Indices array: [-1, 8, 5, 0, 4, 3, 6, 1, 2, 7, -1, -1, -1, -1, -1, -1]
+insert: vid =10
+Heap content after INSERT: [3, 7, 8, 5, 4, 2, 6, 9, 1, 10]
+Indices array: [-1, 8, 5, 0, 4, 3, 6, 1, 2, 7, 9, -1, -1, -1, -1, -1]
+insert: vid =11
+Heap content after INSERT: [3, 7, 8, 5, 4, 2, 6, 9, 1, 10, 11]
+Indices array: [-1, 8, 5, 0, 4, 3, 6, 1, 2, 7, 9, 10, -1, -1, -1, -1]
+insert: vid =12
+Heap content after INSERT: [3, 7, 8, 5, 4, 2, 6, 9, 1, 10, 11, 12]
+Indices array: [-1, 8, 5, 0, 4, 3, 6, 1, 2, 7, 9, 10, 11, -1, -1, -1]
+insert: vid =13
+Heap content after INSERT: [3, 7, 8, 5, 4, 2, 6, 9, 1, 10, 11, 12, 13]
+Indices array: [-1, 8, 5, 0, 4, 3, 6, 1, 2, 7, 9, 10, 11, 12, -1, -1]
+insert: vid =14
+Heap content after INSERT: [3, 7, 8, 5, 4, 2, 6, 9, 1, 10, 11, 12, 13, 14]
+Indices array: [-1, 8, 5, 0, 4, 3, 6, 1, 2, 7, 9, 10, 11, 12, 13, -1]
+insert: vid =15
+Heap content after INSERT: [3, 7, 8, 5, 4, 2, 15, 9, 1, 10, 11, 12, 13, 14, 6]
+Indices array: [-1, 8, 5, 0, 4, 3, 14, 1, 2, 7, 9, 10, 11, 12, 13, 6]
+insert: vid =0
+Heap content after INSERT: [3, 7, 8, 5, 4, 2, 15, 9, 1, 10, 11, 12, 13, 14, 6, 0]
+Indices array: [15, 8, 5, 0, 4, 3, 14, 1, 2, 7, 9, 10, 11, 12, 13, 6]

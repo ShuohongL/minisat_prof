@@ -1,0 +1,10 @@
+/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/minisat-lib-static.dir
+/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/minisat-lib-shared.dir
+/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/minisat_core.dir
+/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/minisat_simp.dir
+/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/install.dir
+/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/install/local.dir
+/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/install/strip.dir
