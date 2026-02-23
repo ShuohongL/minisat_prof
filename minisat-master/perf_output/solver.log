@@ -1,0 +1,315 @@
+[VSIDS bump] vid=3 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=1
+  heap[0]=22 act=0
+  heap[1]=1 act=0
+  heap[2]=2 act=0
+  heap[3]=3 act=1
+  heap[4]=4 act=0
+  heap[5]=5 act=0
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=8 act=0
+  heap[9]=9 act=0
+  heap[10]=10 act=0
+  heap[11]=11 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=11 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=1
+  heap[0]=3 act=1
+  heap[1]=22 act=0
+  heap[2]=2 act=0
+  heap[3]=1 act=0
+  heap[4]=4 act=0
+  heap[5]=5 act=0
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=8 act=0
+  heap[9]=9 act=0
+  heap[10]=10 act=0
+  heap[11]=11 act=1
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=17 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=1
+  heap[0]=3 act=1
+  heap[1]=22 act=0
+  heap[2]=11 act=1
+  heap[3]=1 act=0
+  heap[4]=4 act=0
+  heap[5]=2 act=0
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=8 act=0
+  heap[9]=9 act=0
+  heap[10]=10 act=0
+  heap[11]=5 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=29 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=0
+  heap[0]=3 act=1
+  heap[1]=17 act=1
+  heap[2]=11 act=1
+  heap[3]=22 act=0
+  heap[4]=4 act=0
+  heap[5]=2 act=0
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=1 act=0
+  heap[9]=9 act=0
+  heap[10]=10 act=0
+  heap[11]=5 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=4 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=1
+  heap[0]=3 act=1
+  heap[1]=17 act=1
+  heap[2]=11 act=1
+  heap[3]=22 act=0
+  heap[4]=4 act=1
+  heap[5]=2 act=0
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=1 act=0
+  heap[9]=9 act=0
+  heap[10]=10 act=0
+  heap[11]=5 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=1 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=1
+  heap[0]=3 act=1
+  heap[1]=17 act=1
+  heap[2]=11 act=1
+  heap[3]=22 act=0
+  heap[4]=4 act=1
+  heap[5]=2 act=0
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=1 act=1
+  heap[9]=9 act=0
+  heap[10]=10 act=0
+  heap[11]=5 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=23 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=0
+  heap[0]=3 act=1
+  heap[1]=17 act=1
+  heap[2]=11 act=1
+  heap[3]=1 act=1
+  heap[4]=4 act=1
+  heap[5]=2 act=0
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=22 act=0
+  heap[9]=9 act=0
+  heap[10]=10 act=0
+  heap[11]=5 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=7 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=1
+  heap[0]=3 act=1
+  heap[1]=17 act=1
+  heap[2]=11 act=1
+  heap[3]=1 act=1
+  heap[4]=4 act=1
+  heap[5]=2 act=0
+  heap[6]=6 act=0
+  heap[7]=7 act=1
+  heap[8]=22 act=0
+  heap[9]=9 act=0
+  heap[10]=10 act=0
+  heap[11]=5 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=2 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=1
+  heap[0]=3 act=1
+  heap[1]=17 act=1
+  heap[2]=11 act=1
+  heap[3]=1 act=1
+  heap[4]=4 act=1
+  heap[5]=2 act=1
+  heap[6]=6 act=0
+  heap[7]=7 act=1
+  heap[8]=22 act=0
+  heap[9]=9 act=0
+  heap[10]=10 act=0
+  heap[11]=5 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=10 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=1
+  heap[0]=3 act=1
+  heap[1]=17 act=1
+  heap[2]=11 act=1
+  heap[3]=1 act=1
+  heap[4]=4 act=1
+  heap[5]=2 act=1
+  heap[6]=6 act=0
+  heap[7]=7 act=1
+  heap[8]=22 act=0
+  heap[9]=9 act=0
+  heap[10]=10 act=1
+  heap[11]=5 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=27 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=0
+  heap[0]=3 act=1
+  heap[1]=17 act=1
+  heap[2]=11 act=1
+  heap[3]=1 act=1
+  heap[4]=4 act=1
+  heap[5]=2 act=1
+  heap[6]=6 act=0
+  heap[7]=7 act=1
+  heap[8]=22 act=0
+  heap[9]=9 act=0
+  heap[10]=10 act=1
+  heap[11]=5 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=18 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=1
+  heap[0]=3 act=1
+  heap[1]=17 act=1
+  heap[2]=11 act=1
+  heap[3]=1 act=1
+  heap[4]=4 act=1
+  heap[5]=2 act=1
+  heap[6]=6 act=0
+  heap[7]=7 act=1
+  heap[8]=22 act=0
+  heap[9]=9 act=0
+  heap[10]=10 act=1
+  heap[11]=5 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=5 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=1
+  heap[0]=3 act=1
+  heap[1]=17 act=1
+  heap[2]=11 act=1
+  heap[3]=1 act=1
+  heap[4]=4 act=1
+  heap[5]=2 act=1
+  heap[6]=6 act=0
+  heap[7]=7 act=1
+  heap[8]=18 act=1
+  heap[9]=9 act=0
+  heap[10]=10 act=1
+  heap[11]=5 act=1
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=0 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=0
+  heap[0]=3 act=1
+  heap[1]=17 act=1
+  heap[2]=11 act=1
+  heap[3]=1 act=1
+  heap[4]=4 act=1
+  heap[5]=2 act=1
+  heap[6]=6 act=0
+  heap[7]=7 act=1
+  heap[8]=18 act=1
+  heap[9]=9 act=0
+  heap[10]=10 act=1
+  heap[11]=5 act=1
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=28 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=0
+  heap[0]=3 act=1
+  heap[1]=17 act=1
+  heap[2]=11 act=1
+  heap[3]=1 act=1
+  heap[4]=4 act=1
+  heap[5]=2 act=1
+  heap[6]=6 act=0
+  heap[7]=7 act=1
+  heap[8]=18 act=1
+  heap[9]=9 act=0
+  heap[10]=10 act=1
+  heap[11]=5 act=1
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=25 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=0
+  heap[0]=3 act=1
+  heap[1]=17 act=1
+  heap[2]=11 act=1
+  heap[3]=1 act=1
+  heap[4]=4 act=1
+  heap[5]=2 act=1
+  heap[6]=6 act=0
+  heap[7]=7 act=1
+  heap[8]=18 act=1
+  heap[9]=9 act=0
+  heap[10]=10 act=1
+  heap[11]=5 act=1
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+WARNING: for repeatability, setting FPU to use double precision
+============================[ Problem Statistics ]=============================
+|                                                                             |
+|  Number of variables:            32                                         |
+|  Number of clauses:             160                                         |
+|  Parse time:                   0.00 s                                       |
+|  Simplification time:          0.00 s                                       |
+|                                                                             |
+============================[ Search Statistics ]==============================
+| Conflicts |          ORIGINAL         |          LEARNT          | Progress |
+|           |    Vars  Clauses Literals |    Limit  Clauses Lit/Cl |          |
+===============================================================================
+===============================================================================
+restarts              : 1
+conflicts             : 1              (386 /sec)
+decisions             : 21             (0.00 % random) (8099 /sec)
+propagations          : 46             (17740 /sec)
+conflict literals     : 7              (0.00 % deleted)
+Memory used           : 6.61 MB
+CPU time              : 0.002593 s
+
+SATISFIABLE
+=== Heap profiling summary ===
+insert: calls=98 total_cycles=36687 avg_cycles=374.36
+decrease: calls=10 total_cycles=4075 avg_cycles=407.50
+removeMin: calls=66 total_cycles=25318 avg_cycles=383.61
+================================

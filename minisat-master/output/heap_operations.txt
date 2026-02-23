@@ -1,0 +1,158 @@
+INSERT (VID = 0)
+check heap
+INSERT (VID = 1)
+check heap
+INSERT (VID = 2)
+check heap
+INSERT (VID = 3)
+check heap
+INSERT (VID = 4)
+check heap
+INSERT (VID = 5)
+check heap
+INSERT (VID = 6)
+check heap
+INSERT (VID = 7)
+check heap
+INSERT (VID = 8)
+check heap
+INSERT (VID = 9)
+check heap
+INSERT (VID = 10)
+check heap
+INSERT (VID = 11)
+check heap
+INSERT (VID = 12)
+check heap
+INSERT (VID = 13)
+check heap
+INSERT (VID = 14)
+check heap
+INSERT (VID = 15)
+check heap
+INSERT (VID = 16)
+check heap
+INSERT (VID = 17)
+check heap
+INSERT (VID = 18)
+check heap
+INSERT (VID = 19)
+check heap
+REBUILD
+REMOVE_MAX (VID = 0)
+check heap
+REMOVE_MAX (VID = 19)
+check heap
+REMOVE_MAX (VID = 18)
+check heap
+UPDATE_ACTIVITY: (VID = 2, activity = 1)
+check heap
+UPDATE_ACTIVITY: (VID = 10, activity = 1)
+check heap
+UPDATE_ACTIVITY: (VID = 18, activity = 1)
+UPDATE_ACTIVITY: (VID = 8, activity = 1)
+check heap
+UPDATE_ACTIVITY: (VID = 0, activity = 1)
+UPDATE_ACTIVITY: (VID = 5, activity = 1)
+check heap
+UPDATE_ACTIVITY: (VID = 9, activity = 1)
+check heap
+UPDATE_ACTIVITY: (VID = 19, activity = 1)
+INSERT (VID = 18)
+check heap
+UPDATE_ACTIVITY: (VID = 11, activity = 1.05263)
+check heap
+UPDATE_ACTIVITY: (VID = 8, activity = 2.05263)
+check heap
+UPDATE_ACTIVITY: (VID = 5, activity = 2.05263)
+check heap
+UPDATE_ACTIVITY: (VID = 1, activity = 1.05263)
+check heap
+UPDATE_ACTIVITY: (VID = 18, activity = 2.05263)
+check heap
+UPDATE_ACTIVITY: (VID = 0, activity = 2.05263)
+UPDATE_ACTIVITY: (VID = 3, activity = 1.05263)
+check heap
+UPDATE_ACTIVITY: (VID = 9, activity = 2.05263)
+check heap
+UPDATE_ACTIVITY: (VID = 19, activity = 2.05263)
+INSERT (VID = 19)
+check heap
+REMOVE_MAX (VID = 8)
+check heap
+REMOVE_MAX (VID = 18)
+check heap
+REMOVE_MAX (VID = 19)
+check heap
+REMOVE_MAX (VID = 9)
+check heap
+REMOVE_MAX (VID = 5)
+check heap
+REMOVE_MAX (VID = 3)
+check heap
+REMOVE_MAX (VID = 11)
+check heap
+REMOVE_MAX (VID = 1)
+check heap
+REMOVE_MAX (VID = 10)
+check heap
+REMOVE_MAX (VID = 2)
+check heap
+REMOVE_MAX (VID = 13)
+check heap
+REMOVE_MAX (VID = 16)
+check heap
+REMOVE_MAX (VID = 7)
+check heap
+REMOVE_MAX (VID = 6)
+check heap
+REMOVE_MAX (VID = 15)
+check heap
+REMOVE_MAX (VID = 12)
+check heap
+REMOVE_MAX (VID = 14)
+check heap
+REMOVE_MAX (VID = 4)
+check heap
+REMOVE_MAX (VID = 17)
+check heap
+INSERT (VID = 11)
+check heap
+INSERT (VID = 14)
+check heap
+INSERT (VID = 6)
+check heap
+INSERT (VID = 4)
+check heap
+INSERT (VID = 16)
+check heap
+INSERT (VID = 5)
+check heap
+INSERT (VID = 12)
+check heap
+INSERT (VID = 9)
+check heap
+INSERT (VID = 15)
+check heap
+INSERT (VID = 1)
+check heap
+INSERT (VID = 17)
+check heap
+INSERT (VID = 7)
+check heap
+INSERT (VID = 13)
+check heap
+INSERT (VID = 3)
+check heap
+INSERT (VID = 18)
+check heap
+INSERT (VID = 2)
+check heap
+INSERT (VID = 10)
+check heap
+INSERT (VID = 8)
+check heap
+INSERT (VID = 19)
+check heap
+INSERT (VID = 0)
+check heap
