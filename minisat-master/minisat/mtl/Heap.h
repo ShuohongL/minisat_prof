@@ -21,6 +21,10 @@ OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWA
 #ifndef Minisat_Heap_h
 #define Minisat_Heap_h
 
+#ifdef HEAP_PROFILE
+#include "heap_profile.h"
+#endif
+
 #include "minisat/mtl/Vec.h"
 #include "minisat/mtl/IntMap.h"
 
@@ -33,7 +37,7 @@ namespace Minisat {
 
 // helper function to write heap content to a file for debugging
 template<class K>
-void heap_trace(const vec<K>& heap, const char* msg) {
+void heap_trace(const vec<K>& heap, const char* msg, int line_len = 16) {
     std::ofstream out("./output/heap_trace.txt", std::ios_base::app);
     out << msg << ": [";
     for (int i = 0; i < heap.size(); ++i) {
@@ -41,6 +45,31 @@ void heap_trace(const vec<K>& heap, const char* msg) {
         if (i < heap.size() - 1) out << ", ";
     }
     out << "]" << std::endl;
+
+    // Additional: write the expected format to `./output/expected_heap.txt`
+    std::ofstream exp("./output/expected_heap.txt", std::ios_base::app);
+    int n = heap.size();
+    int idx = 0;
+
+    // If heap is empty, still emit one full line of zeros
+    if (n == 0) {
+        for (int j = 0; j < line_len; ++j) {
+            exp << 0;
+            if (j < line_len - 1) exp << ' ';
+        }
+        exp << std::endl;
+        return;
+    }
+
+    // Emit full lines of exactly 'line_len' values; pad last line with zeros
+    while (idx < n) {
+        for (int j = 0; j < line_len; ++j) {
+            if (idx < n) exp << heap[idx++];
+            else exp << 0;
+            if (j < line_len - 1) exp << ' ';
+        }
+        exp << std::endl;
+    }
 }
 
 // Print the indices array (var -> position; -1 means “not in heap”)
@@ -106,16 +135,28 @@ class Heap {
     bool empty     ()          const { return heap.size() == 0; }
     bool inHeap    (K k)       const { return indices.has(k) && indices[k] >= 0; }
     int  operator[](int index) const { assert(index < heap.size()); return heap[index]; }
-
+#ifdef HEAP_PROFILE
+    void decrease(K k) __attribute__((noinline)) {
+        uint64_t t0 = rdtsc_serialized();
+        assert(inHeap(k));
+        percolateUp(indices[k]);
+        uint64_t t1 = rdtsc_serialized();
+        heap_decrease_cycles.fetch_add(t1 - t0, std::memory_order_relaxed);
+        heap_decrease_calls.fetch_add(1, std::memory_order_relaxed);
+    }
+#else
     void decrease  (K k) {
         assert(inHeap(k));
         percolateUp  (indices[k]);
 
         std::ofstream out("./output/heap_trace.txt", std::ios_base::app);
         out << "percolating up: vid = " << k << std::endl;
-
+        std::ofstream heap_op("./output/heap_operations.txt", std::ios_base::app);
+//        heap_op << "UPDATE_ACTIVITY (VID = " << k << ")" << std::endl;
+        heap_op << "check heap" << std::endl;
         heap_trace(heap, "Heap content after DECREASE");
     }
+#endif
     void increase  (K k) { assert(inHeap(k)); percolateDown(indices[k]); }
 
 
@@ -129,7 +170,22 @@ class Heap {
             percolateDown(indices[k]); }
     }
 
-
+#ifdef HEAP_PROFILE
+    // wrapper to measure insert
+    void insert(K k) __attribute__((noinline)) {
+        uint64_t t0 = rdtsc_serialized();
+        // ---- original insert body ----
+        indices.reserve(k, -1);
+        assert(!inHeap(k));
+        indices[k] = heap.size();
+        heap.push(k);
+        percolateUp(indices[k]);
+        // ---- end original body ----
+        uint64_t t1 = rdtsc_serialized();
+        heap_insert_cycles.fetch_add(t1 - t0, std::memory_order_relaxed);
+        heap_insert_calls.fetch_add(1, std::memory_order_relaxed);
+    }
+#else
     void insert(K k)
     {
         indices.reserve(k, -1);
@@ -141,9 +197,13 @@ class Heap {
         //heap_trace("insert");
         std::ofstream out("./output/heap_trace.txt", std::ios_base::app);
         out << "insert: vid =" << k << std::endl;
+        std::ofstream heap_op("./output/heap_operations.txt", std::ios_base::app);
+        heap_op << "INSERT (VID = " << k << ")" << std::endl;
+        heap_op << "check heap" << std::endl;
         heap_trace(heap, "Heap content after INSERT");
         heap_trace_indices(indices, "Indices array");
     }
+#endif
 
 
     void remove(K k)
@@ -162,7 +222,21 @@ class Heap {
             heap.pop();
     }
 
-
+#ifdef HEAP_PROFILE
+    K removeMin() __attribute__((noinline)) {
+        uint64_t t0 = rdtsc_serialized();
+        K x = heap[0];
+        heap[0] = heap.last();
+        indices[heap[0]] = 0;
+        indices[x] = -1;
+        heap.pop();
+        if (heap.size() > 1) percolateDown(0);
+        uint64_t t1 = rdtsc_serialized();
+        heap_remove_cycles.fetch_add(t1 - t0, std::memory_order_relaxed);
+        heap_remove_calls.fetch_add(1, std::memory_order_relaxed);
+        return x;
+    }
+#else
     K removeMin()
     {
         K x              = heap[0];
@@ -174,10 +248,13 @@ class Heap {
         //heap_trace("removeMin");
         std::ofstream out("./output/heap_trace.txt", std::ios_base::app);
         out << "removing max: vid = " << x << std::endl;
+        std::ofstream heap_op("./output/heap_operations.txt", std::ios_base::app);
+        heap_op << "REMOVE_MAX (VID = " << x << ")" << std::endl;
+        heap_op << "check heap" << std::endl;
         heap_trace(heap, "Heap content after REMOVE_MIN");
         return x;
     }
-
+#endif
 
     // Rebuild the heap from scratch, using the elements in 'ns':
     void build(const vec<K>& ns) {
@@ -197,7 +274,9 @@ class Heap {
         //heap_trace("build");
         std::ofstream out("./output/heap_trace.txt", std::ios_base::app);
         out << "rebuilding the heap" << std::endl;
-        heap_trace(heap, "Heap content after REBUILD");
+        std::ofstream heap_op("./output/heap_operations.txt", std::ios_base::app);
+        heap_op << "REBUILD" << std::endl;
+//        heap_trace(heap, "Heap content after REBUILD");
     }
 
     void clear(bool dispose = false) 

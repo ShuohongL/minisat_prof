@@ -1,8 +1,8 @@
 WARNING: for repeatability, setting FPU to use double precision
 ============================[ Problem Statistics ]=============================
 |                                                                             |
-|  Number of variables:            16                                         |
-|  Number of clauses:              80                                         |
+|  Number of variables:            20                                         |
+|  Number of clauses:              91                                         |
 |  Parse time:                   0.00 s                                       |
 |                                                                             |
 [HEAP_DEBUG] dumpDecisionHeap(before_solve)
@@ -12,11 +12,11 @@ WARNING: for repeatability, setting FPU to use double precision
 ===============================================================================
 ===============================================================================
 restarts              : 1
-conflicts             : 1              (inf /sec)
-decisions             : 14             (0.00 % random) (inf /sec)
-propagations          : 17             (inf /sec)
-conflict literals     : 4              (0.00 % deleted)
+conflicts             : 2              (641 /sec)
+decisions             : 6              (0.00 % random) (1922 /sec)
+propagations          : 36             (11535 /sec)
+conflict literals     : 5              (0.00 % deleted)
 Memory used           : 6.59 MB
-CPU time              : 0 s
+CPU time              : 0.003121 s
 
 SATISFIABLE

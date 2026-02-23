@@ -1,36 +1,350 @@
 [HEAP_DEBUG] dumpDecisionHeap(before_solve)
-HEAP SNAPSHOT [before_solve] size=16 (of 16 in-heap)
-  #0  v=0  act=0  decision=1  assigned=0
-  #1  v=1  act=0  decision=1  assigned=0
-  #2  v=2  act=0  decision=1  assigned=0
-  #3  v=3  act=0  decision=1  assigned=0
-  #4  v=4  act=0  decision=1  assigned=0
-  #5  v=5  act=0  decision=1  assigned=0
-  #6  v=6  act=0  decision=1  assigned=0
-  #7  v=7  act=0  decision=1  assigned=0
-  #8  v=8  act=0  decision=1  assigned=0
-  #9  v=9  act=0  decision=1  assigned=0
-  #10  v=10  act=0  decision=1  assigned=0
-  #11  v=11  act=0  decision=1  assigned=0
-  #12  v=12  act=0  decision=1  assigned=0
-  #13  v=13  act=0  decision=1  assigned=0
-  #14  v=14  act=0  decision=1  assigned=0
-  #15  v=15  act=0  decision=1  assigned=0
+HEAP SNAPSHOT [before_solve] size=20 (of 20 in-heap)
+  #0  v=10  act=0  decision=1  assigned=0
+  #1  v=19  act=0  decision=1  assigned=0
+  #2  v=18  act=0  decision=1  assigned=0
+  #3  v=17  act=0  decision=1  assigned=0
+  #4  v=16  act=0  decision=1  assigned=0
+  #5  v=15  act=0  decision=1  assigned=0
+  #6  v=14  act=0  decision=1  assigned=0
+  #7  v=13  act=0  decision=1  assigned=0
+  #8  v=12  act=0  decision=1  assigned=0
+  #9  v=11  act=0  decision=1  assigned=0
+  #10  v=0  act=0  decision=1  assigned=0
+  #11  v=9  act=0  decision=1  assigned=0
+  #12  v=8  act=0  decision=1  assigned=0
+  #13  v=7  act=0  decision=1  assigned=0
+  #14  v=6  act=0  decision=1  assigned=0
+  #15  v=5  act=0  decision=1  assigned=0
+  #16  v=4  act=0  decision=1  assigned=0
+  #17  v=3  act=0  decision=1  assigned=0
+  #18  v=2  act=0  decision=1  assigned=0
+  #19  v=1  act=0  decision=1  assigned=0
+[VSIDS bump] vid=2 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=1
+  heap[0]=17 act=0
+  heap[1]=1 act=0
+  heap[2]=2 act=1
+  heap[3]=3 act=0
+  heap[4]=4 act=0
+  heap[5]=5 act=0
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=8 act=0
+  heap[9]=9 act=0
+  heap[10]=10 act=0
+  heap[11]=11 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=10 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=1
+  heap[0]=2 act=1
+  heap[1]=1 act=0
+  heap[2]=17 act=0
+  heap[3]=3 act=0
+  heap[4]=4 act=0
+  heap[5]=5 act=0
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=8 act=0
+  heap[9]=9 act=0
+  heap[10]=10 act=1
+  heap[11]=11 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=18 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=0
+  heap[0]=2 act=1
+  heap[1]=10 act=1
+  heap[2]=17 act=0
+  heap[3]=3 act=0
+  heap[4]=1 act=0
+  heap[5]=5 act=0
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=8 act=0
+  heap[9]=9 act=0
+  heap[10]=4 act=0
+  heap[11]=11 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=8 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=1
+  heap[0]=2 act=1
+  heap[1]=10 act=1
+  heap[2]=17 act=0
+  heap[3]=3 act=0
+  heap[4]=1 act=0
+  heap[5]=5 act=0
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=8 act=1
+  heap[9]=9 act=0
+  heap[10]=4 act=0
+  heap[11]=11 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=0 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=0
+  heap[0]=2 act=1
+  heap[1]=10 act=1
+  heap[2]=17 act=0
+  heap[3]=8 act=1
+  heap[4]=1 act=0
+  heap[5]=5 act=0
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=3 act=0
+  heap[9]=9 act=0
+  heap[10]=4 act=0
+  heap[11]=11 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=5 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=1
+  heap[0]=2 act=1
+  heap[1]=10 act=1
+  heap[2]=17 act=0
+  heap[3]=8 act=1
+  heap[4]=1 act=0
+  heap[5]=5 act=1
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=3 act=0
+  heap[9]=9 act=0
+  heap[10]=4 act=0
+  heap[11]=11 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=9 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=1
+  heap[0]=2 act=1
+  heap[1]=10 act=1
+  heap[2]=5 act=1
+  heap[3]=8 act=1
+  heap[4]=1 act=0
+  heap[5]=17 act=0
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=3 act=0
+  heap[9]=9 act=1
+  heap[10]=4 act=0
+  heap[11]=11 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=19 activity_before=0 inc=1 activity_after=1 var_inc=1
+  inHeap=0
+  heap[0]=2 act=1
+  heap[1]=10 act=1
+  heap[2]=5 act=1
+  heap[3]=8 act=1
+  heap[4]=9 act=1
+  heap[5]=17 act=0
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=3 act=0
+  heap[9]=1 act=0
+  heap[10]=4 act=0
+  heap[11]=11 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=11 activity_before=0 inc=1.05263 activity_after=1.05263 var_inc=1.05263
+  inHeap=1
+  heap[0]=2 act=1
+  heap[1]=10 act=1
+  heap[2]=5 act=1
+  heap[3]=8 act=1
+  heap[4]=9 act=1
+  heap[5]=17 act=0
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=18 act=1
+  heap[9]=1 act=0
+  heap[10]=4 act=0
+  heap[11]=11 act=1.05263
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=8 activity_before=1 inc=1.05263 activity_after=2.05263 var_inc=1.05263
+  inHeap=1
+  heap[0]=11 act=1.05263
+  heap[1]=10 act=1
+  heap[2]=2 act=1
+  heap[3]=8 act=2.05263
+  heap[4]=9 act=1
+  heap[5]=5 act=1
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=18 act=1
+  heap[9]=1 act=0
+  heap[10]=4 act=0
+  heap[11]=17 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=5 activity_before=1 inc=1.05263 activity_after=2.05263 var_inc=1.05263
+  inHeap=1
+  heap[0]=8 act=2.05263
+  heap[1]=11 act=1.05263
+  heap[2]=2 act=1
+  heap[3]=10 act=1
+  heap[4]=9 act=1
+  heap[5]=5 act=2.05263
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=18 act=1
+  heap[9]=1 act=0
+  heap[10]=4 act=0
+  heap[11]=17 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=1 activity_before=0 inc=1.05263 activity_after=1.05263 var_inc=1.05263
+  inHeap=1
+  heap[0]=8 act=2.05263
+  heap[1]=11 act=1.05263
+  heap[2]=5 act=2.05263
+  heap[3]=10 act=1
+  heap[4]=9 act=1
+  heap[5]=2 act=1
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=18 act=1
+  heap[9]=1 act=1.05263
+  heap[10]=4 act=0
+  heap[11]=17 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=18 activity_before=1 inc=1.05263 activity_after=2.05263 var_inc=1.05263
+  inHeap=1
+  heap[0]=8 act=2.05263
+  heap[1]=11 act=1.05263
+  heap[2]=5 act=2.05263
+  heap[3]=10 act=1
+  heap[4]=1 act=1.05263
+  heap[5]=2 act=1
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=18 act=2.05263
+  heap[9]=9 act=1
+  heap[10]=4 act=0
+  heap[11]=17 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=0 activity_before=1 inc=1.05263 activity_after=2.05263 var_inc=1.05263
+  inHeap=0
+  heap[0]=8 act=2.05263
+  heap[1]=18 act=2.05263
+  heap[2]=5 act=2.05263
+  heap[3]=11 act=1.05263
+  heap[4]=1 act=1.05263
+  heap[5]=2 act=1
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=10 act=1
+  heap[9]=9 act=1
+  heap[10]=4 act=0
+  heap[11]=17 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=3 activity_before=0 inc=1.05263 activity_after=1.05263 var_inc=1.05263
+  inHeap=1
+  heap[0]=8 act=2.05263
+  heap[1]=18 act=2.05263
+  heap[2]=5 act=2.05263
+  heap[3]=11 act=1.05263
+  heap[4]=1 act=1.05263
+  heap[5]=2 act=1
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=10 act=1
+  heap[9]=9 act=1
+  heap[10]=4 act=0
+  heap[11]=17 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=9 activity_before=1 inc=1.05263 activity_after=2.05263 var_inc=1.05263
+  inHeap=1
+  heap[0]=8 act=2.05263
+  heap[1]=18 act=2.05263
+  heap[2]=5 act=2.05263
+  heap[3]=11 act=1.05263
+  heap[4]=1 act=1.05263
+  heap[5]=2 act=1
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=3 act=1.05263
+  heap[9]=9 act=2.05263
+  heap[10]=4 act=0
+  heap[11]=17 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
+[VSIDS bump] vid=19 activity_before=1 inc=1.05263 activity_after=2.05263 var_inc=1.05263
+  inHeap=0
+  heap[0]=8 act=2.05263
+  heap[1]=18 act=2.05263
+  heap[2]=5 act=2.05263
+  heap[3]=11 act=1.05263
+  heap[4]=9 act=2.05263
+  heap[5]=2 act=1
+  heap[6]=6 act=0
+  heap[7]=7 act=0
+  heap[8]=3 act=1.05263
+  heap[9]=1 act=1.05263
+  heap[10]=4 act=0
+  heap[11]=17 act=0
+  heap[12]=12 act=0
+  heap[13]=13 act=0
+  heap[14]=14 act=0
+  heap[15]=15 act=0
 [HEAP_DEBUG] dumpDecisionHeap(after_solve)
-HEAP SNAPSHOT [after_solve] size=16 (of 16 in-heap)
-  #0  v=3  act=1  decision=1  assigned=0
-  #1  v=5  act=1  decision=1  assigned=0
-  #2  v=7  act=1  decision=1  assigned=0
-  #3  v=8  act=1  decision=1  assigned=0
-  #4  v=15  act=1  decision=1  assigned=0
-  #5  v=0  act=0  decision=1  assigned=0
-  #6  v=1  act=0  decision=1  assigned=0
-  #7  v=2  act=0  decision=1  assigned=0
-  #8  v=4  act=0  decision=1  assigned=0
-  #9  v=6  act=0  decision=1  assigned=0
-  #10  v=9  act=0  decision=1  assigned=0
-  #11  v=10  act=0  decision=1  assigned=0
-  #12  v=11  act=0  decision=1  assigned=0
-  #13  v=12  act=0  decision=1  assigned=0
-  #14  v=13  act=0  decision=1  assigned=0
-  #15  v=14  act=0  decision=1  assigned=0
+HEAP SNAPSHOT [after_solve] size=20 (of 20 in-heap)
+  #0  v=0  act=2.05263  decision=1  assigned=0
+  #1  v=19  act=2.05263  decision=1  assigned=0
+  #2  v=18  act=2.05263  decision=1  assigned=0
+  #3  v=5  act=2.05263  decision=1  assigned=0
+  #4  v=9  act=2.05263  decision=1  assigned=0
+  #5  v=8  act=2.05263  decision=1  assigned=0
+  #6  v=1  act=1.05263  decision=1  assigned=0
+  #7  v=11  act=1.05263  decision=1  assigned=0
+  #8  v=3  act=1.05263  decision=1  assigned=0
+  #9  v=10  act=1  decision=1  assigned=0
+  #10  v=2  act=1  decision=1  assigned=0
+  #11  v=7  act=0  decision=1  assigned=0
+  #12  v=6  act=0  decision=1  assigned=0
+  #13  v=4  act=0  decision=1  assigned=0
+  #14  v=12  act=0  decision=1  assigned=0
+  #15  v=13  act=0  decision=1  assigned=0
+  #16  v=14  act=0  decision=1  assigned=0
+  #17  v=15  act=0  decision=1  assigned=0
+  #18  v=16  act=0  decision=1  assigned=0
+  #19  v=17  act=0  decision=1  assigned=0

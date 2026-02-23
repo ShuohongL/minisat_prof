@@ -213,6 +213,30 @@ minisat_simp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minisat_simp.dir/build.make CMakeFiles/minisat_simp.dir/build
 .PHONY : minisat_simp/fast
 
+heap_replay.o: heap_replay.cpp.o
+.PHONY : heap_replay.o
+
+# target to build an object file
+heap_replay.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minisat-lib-shared.dir/build.make CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.o
+.PHONY : heap_replay.cpp.o
+
+heap_replay.i: heap_replay.cpp.i
+.PHONY : heap_replay.i
+
+# target to preprocess a source file
+heap_replay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minisat-lib-shared.dir/build.make CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.i
+.PHONY : heap_replay.cpp.i
+
+heap_replay.s: heap_replay.cpp.s
+.PHONY : heap_replay.s
+
+# target to generate assembly for a file
+heap_replay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minisat-lib-shared.dir/build.make CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.s
+.PHONY : heap_replay.cpp.s
+
 minisat/core/Main.o: minisat/core/Main.cc.o
 .PHONY : minisat/core/Main.o
 
@@ -385,6 +409,9 @@ help:
 	@echo "... minisat-lib-static"
 	@echo "... minisat_core"
 	@echo "... minisat_simp"
+	@echo "... heap_replay.o"
+	@echo "... heap_replay.i"
+	@echo "... heap_replay.s"
 	@echo "... minisat/core/Main.o"
 	@echo "... minisat/core/Main.i"
 	@echo "... minisat/core/Main.s"

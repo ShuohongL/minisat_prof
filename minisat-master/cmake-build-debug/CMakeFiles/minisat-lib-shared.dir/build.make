@@ -125,12 +125,27 @@ CMakeFiles/minisat-lib-shared.dir/minisat/simp/SimpSolver.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minisat-lib-shared.dir/minisat/simp/SimpSolver.cc.s"
 	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuohong/minisat_work_dir/minisat-master/minisat/simp/SimpSolver.cc -o CMakeFiles/minisat-lib-shared.dir/minisat/simp/SimpSolver.cc.s
 
+CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.o: CMakeFiles/minisat-lib-shared.dir/flags.make
+CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.o: /home/shuohong/minisat_work_dir/minisat-master/heap_replay.cpp
+CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.o: CMakeFiles/minisat-lib-shared.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.o -MF CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.o.d -o CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.o -c /home/shuohong/minisat_work_dir/minisat-master/heap_replay.cpp
+
+CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.i"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuohong/minisat_work_dir/minisat-master/heap_replay.cpp > CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.i
+
+CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.s"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuohong/minisat_work_dir/minisat-master/heap_replay.cpp -o CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.s
+
 # Object files for target minisat-lib-shared
 minisat__lib__shared_OBJECTS = \
 "CMakeFiles/minisat-lib-shared.dir/minisat/utils/Options.cc.o" \
 "CMakeFiles/minisat-lib-shared.dir/minisat/utils/System.cc.o" \
 "CMakeFiles/minisat-lib-shared.dir/minisat/core/Solver.cc.o" \
-"CMakeFiles/minisat-lib-shared.dir/minisat/simp/SimpSolver.cc.o"
+"CMakeFiles/minisat-lib-shared.dir/minisat/simp/SimpSolver.cc.o" \
+"CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.o"
 
 # External object files for target minisat-lib-shared
 minisat__lib__shared_EXTERNAL_OBJECTS =
@@ -139,10 +154,11 @@ libminisat.so.2.1.0: CMakeFiles/minisat-lib-shared.dir/minisat/utils/Options.cc.
 libminisat.so.2.1.0: CMakeFiles/minisat-lib-shared.dir/minisat/utils/System.cc.o
 libminisat.so.2.1.0: CMakeFiles/minisat-lib-shared.dir/minisat/core/Solver.cc.o
 libminisat.so.2.1.0: CMakeFiles/minisat-lib-shared.dir/minisat/simp/SimpSolver.cc.o
+libminisat.so.2.1.0: CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.o
 libminisat.so.2.1.0: CMakeFiles/minisat-lib-shared.dir/build.make
 libminisat.so.2.1.0: /usr/lib64/libz.so
 libminisat.so.2.1.0: CMakeFiles/minisat-lib-shared.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libminisat.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libminisat.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minisat-lib-shared.dir/link.txt --verbose=$(VERBOSE)
 	$(CMAKE_COMMAND) -E cmake_symlink_library libminisat.so.2.1.0 libminisat.so.2 libminisat.so
 

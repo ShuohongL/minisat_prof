@@ -333,15 +333,51 @@ inline void Solver::insertVarOrder(Var x) {
 inline void Solver::varDecayActivity() { var_inc *= (1 / var_decay); }
 inline void Solver::varBumpActivity(Var v) { varBumpActivity(v, var_inc); }
 inline void Solver::varBumpActivity(Var v, double inc) {
+    double before = activity[v];
+    double after  = before + inc;
+
+    // Do the bump using your existing statement
     if ( (activity[v] += inc) > 1e100 ) {
         // Rescale:
         for (int i = 0; i < nVars(); i++)
             activity[i] *= 1e-100;
-        var_inc *= 1e-100; }
+        var_inc *= 1e-100;
+
+        // after rescale, activity[v] changed again
+        fprintf(stderr,
+                "[VSIDS bump+rescale] vid=%d activity_before=%g inc=%g activity_after(rescaled)=%g var_inc=%g\n",
+                (int)v, before, inc, activity[v], var_inc);
+        std::ofstream heap_op("./output/heap_operations.txt", std::ios_base::app);
+        heap_op << "UPDATE_ACTIVITY + RESCALE: (VID = " << (int)v << ", activity = " << activity[v] << ")"<< std::endl;
+    } else {
+        fprintf(stderr,
+                "[VSIDS bump] vid=%d activity_before=%g inc=%g activity_after=%g var_inc=%g\n",
+                (int)v, before, inc, activity[v], var_inc);
+        std::ofstream heap_op("./output/heap_operations.txt", std::ios_base::app);
+        heap_op << "UPDATE_ACTIVITY: (VID = " << (int)v << ", activity = " << activity[v] << ")"<< std::endl;
+    }
 
     // Update order_heap with respect to new activity:
-    if (order_heap.inHeap(v))
-        order_heap.decrease(v); }
+    bool inH = order_heap.inHeap(v);
+    fprintf(stderr, "  inHeap=%d\n", (int)inH);
+    int K = 16;
+    for (int i = 0; i < K && i < order_heap.size(); i++) {
+        Var x = order_heap[i];
+        fprintf(stderr, "  heap[%d]=%d act=%g\n", i, (int)x, activity[x]);
+    }
+    if (inH)
+        order_heap.decrease(v);
+}
+//inline void Solver::varBumpActivity(Var v, double inc) {
+//    if ( (activity[v] += inc) > 1e100 ) {
+//        // Rescale:
+//        for (int i = 0; i < nVars(); i++)
+//            activity[i] *= 1e-100;
+//        var_inc *= 1e-100; }
+//
+//    // Update order_heap with respect to new activity:
+//    if (order_heap.inHeap(v))
+//        order_heap.decrease(v); }
 
 inline void Solver::claDecayActivity() { cla_inc *= (1 / clause_decay); }
 inline void Solver::claBumpActivity (Clause& c) {

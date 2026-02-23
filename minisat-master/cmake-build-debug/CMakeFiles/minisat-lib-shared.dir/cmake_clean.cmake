@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   ".2"
+  "CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.o"
+  "CMakeFiles/minisat-lib-shared.dir/heap_replay.cpp.o.d"
   "CMakeFiles/minisat-lib-shared.dir/minisat/core/Solver.cc.o"
   "CMakeFiles/minisat-lib-shared.dir/minisat/core/Solver.cc.o.d"
   "CMakeFiles/minisat-lib-shared.dir/minisat/simp/SimpSolver.cc.o"

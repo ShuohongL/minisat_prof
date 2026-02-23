@@ -61,29 +61,29 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8VmL0i"
-      binary: "/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8VmL0i"
+      source: "/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZVARBu"
+      binary: "/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZVARBu"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8VmL0i'
+        Change Dir: '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZVARBu'
         
-        Run Build Command(s): /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_01cd8/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_01cd8.dir/build.make CMakeFiles/cmTC_01cd8.dir/build
-        gmake[1]: Entering directory '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8VmL0i'
-        Building C object CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o
-        /usr/local/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o -c /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8b21b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8b21b.dir/build.make CMakeFiles/cmTC_8b21b.dir/build
+        gmake[1]: Entering directory '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZVARBu'
+        Building C object CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o
+        /usr/local/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o -c /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/cc
         Target: x86_64-pc-linux-gnu
         Configured with: ../gcc-9.2.0/configure --disable-multilib --enable-languages=c,c++
         Thread model: posix
         gcc version 9.2.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-         /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/cc1 -quiet -v /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o -version -fdiagnostics-color=always -o /tmp/cc5nAEGl.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/cc1 -quiet -v /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o -version -fdiagnostics-color=always -o /tmp/cctUrqEA.s
         GNU C17 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
@@ -101,15 +101,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 3f35b201c0b3239addacc6e9e7b7c745
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-         as -v --64 -o CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o /tmp/cc5nAEGl.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o /tmp/cctUrqEA.s
         GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
         COMPILER_PATH=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-        Linking C executable cmTC_01cd8
-        /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01cd8.dir/link.txt --verbose=1
-        /usr/local/bin/cc  -v -Wl,-v -rdynamic CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o -o cmTC_01cd8
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_8b21b
+        /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b21b.dir/link.txt --verbose=1
+        /usr/local/bin/cc  -v -Wl,-v -rdynamic CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o -o cmTC_8b21b
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/cc
         COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper
@@ -119,13 +119,13 @@ events:
         gcc version 9.2.0 (GCC) 
         COMPILER_PATH=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_01cd8' '-mtune=generic' '-march=x86-64'
-         /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwTSSSm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_01cd8 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -v CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8b21b' '-mtune=generic' '-march=x86-64'
+         /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc739UPu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8b21b /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -v CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o
         collect2 version 9.2.0
-        /usr/bin/ld -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwTSSSm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_01cd8 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -v CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o
+        /usr/bin/ld -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc739UPu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8b21b /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -v CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o
         GNU ld version 2.27-44.base.el7_9.1
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_01cd8' '-mtune=generic' '-march=x86-64'
-        gmake[1]: Leaving directory '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8VmL0i'
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8b21b' '-mtune=generic' '-march=x86-64'
+        gmake[1]: Leaving directory '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZVARBu'
         
       exitCode: 0
   -
@@ -160,21 +160,21 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8VmL0i']
+        ignore line: [Change Dir: '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZVARBu']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_01cd8/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_01cd8.dir/build.make CMakeFiles/cmTC_01cd8.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8VmL0i']
-        ignore line: [Building C object CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/local/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o -c /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8b21b/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_8b21b.dir/build.make CMakeFiles/cmTC_8b21b.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ZVARBu']
+        ignore line: [Building C object CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/local/bin/cc   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o -c /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/cc]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Configured with: ../gcc-9.2.0/configure --disable-multilib --enable-languages=c c++]
         ignore line: [Thread model: posix]
         ignore line: [gcc version 9.2.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/cc1 -quiet -v /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o -version -fdiagnostics-color=always -o /tmp/cc5nAEGl.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/cc1 -quiet -v /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o -version -fdiagnostics-color=always -o /tmp/cctUrqEA.s]
         ignore line: [GNU C17 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
@@ -192,15 +192,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 3f35b201c0b3239addacc6e9e7b7c745]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o /tmp/cc5nAEGl.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o /tmp/cctUrqEA.s]
         ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
         ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [Linking C executable cmTC_01cd8]
-        ignore line: [/home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01cd8.dir/link.txt --verbose=1]
-        ignore line: [/usr/local/bin/cc  -v -Wl -v -rdynamic CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o -o cmTC_01cd8]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_8b21b]
+        ignore line: [/home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b21b.dir/link.txt --verbose=1]
+        ignore line: [/usr/local/bin/cc  -v -Wl -v -rdynamic CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o -o cmTC_8b21b]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper]
@@ -210,13 +210,13 @@ events:
         ignore line: [gcc version 9.2.0 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_01cd8' '-mtune=generic' '-march=x86-64']
-        link line: [ /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwTSSSm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_01cd8 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -v CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_8b21b' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc739UPu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8b21b /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -v CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o]
           arg [/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccwTSSSm.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc739UPu.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -229,7 +229,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_01cd8] ==> ignore
+          arg [cmTC_8b21b] ==> ignore
           arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
           arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
           arg [/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o] ==> obj [/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o]
@@ -239,7 +239,7 @@ events:
           arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
           arg [-L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..] ==> dir [/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--as-needed] ==> ignore
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -252,7 +252,7 @@ events:
           arg [/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o] ==> obj [/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o]
           arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
         ignore line: [collect2 version 9.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwTSSSm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_01cd8 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -v CMakeFiles/cmTC_01cd8.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc739UPu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8b21b /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -v CMakeFiles/cmTC_8b21b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
         collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
@@ -287,8 +287,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ENlZmP"
-      binary: "/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ENlZmP"
+      source: "/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NaICEN"
+      binary: "/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NaICEN"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
@@ -296,21 +296,21 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ENlZmP'
+        Change Dir: '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NaICEN'
         
-        Run Build Command(s): /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5b026/fast
-        /usr/bin/gmake  -f CMakeFiles/cmTC_5b026.dir/build.make CMakeFiles/cmTC_5b026.dir/build
-        gmake[1]: Entering directory '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ENlZmP'
-        Building CXX object CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/local/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o -c /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9d130/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9d130.dir/build.make CMakeFiles/cmTC_9d130.dir/build
+        gmake[1]: Entering directory '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NaICEN'
+        Building CXX object CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/local/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o -c /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/c++
         Target: x86_64-pc-linux-gnu
         Configured with: ../gcc-9.2.0/configure --disable-multilib --enable-languages=c,c++
         Thread model: posix
         gcc version 9.2.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/cc1plus -quiet -v -D_GNU_SOURCE /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o -version -fdiagnostics-color=always -o /tmp/ccPRDZ7t.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/cc1plus -quiet -v -D_GNU_SOURCE /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o -version -fdiagnostics-color=always -o /tmp/ccVMXTOF.s
         GNU C++14 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 9.2.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
         
@@ -331,15 +331,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 9d3ffc944c44b0d3cf5400e7da2b8e4a
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         as -v --64 -o CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccPRDZ7t.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccVMXTOF.s
         GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
         COMPILER_PATH=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-        Linking CXX executable cmTC_5b026
-        /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b026.dir/link.txt --verbose=1
-        /usr/local/bin/c++  -v -Wl,-v -rdynamic CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5b026
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_9d130
+        /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d130.dir/link.txt --verbose=1
+        /usr/local/bin/c++  -v -Wl,-v -rdynamic CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9d130
         Using built-in specs.
         COLLECT_GCC=/usr/local/bin/c++
         COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper
@@ -349,13 +349,13 @@ events:
         gcc version 9.2.0 (GCC) 
         COMPILER_PATH=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5b026' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cczuWwrz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5b026 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -v CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9d130' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNcwvYH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9d130 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -v CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o
         collect2 version 9.2.0
-        /usr/bin/ld -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cczuWwrz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5b026 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -v CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o
+        /usr/bin/ld -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNcwvYH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9d130 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -v CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o
         GNU ld version 2.27-44.base.el7_9.1
-        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5b026' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-        gmake[1]: Leaving directory '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ENlZmP'
+        COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9d130' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        gmake[1]: Leaving directory '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NaICEN'
         
       exitCode: 0
   -
@@ -396,21 +396,21 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ENlZmP']
+        ignore line: [Change Dir: '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NaICEN']
         ignore line: []
-        ignore line: [Run Build Command(s): /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5b026/fast]
-        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_5b026.dir/build.make CMakeFiles/cmTC_5b026.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ENlZmP']
-        ignore line: [Building CXX object CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/local/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o -c /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9d130/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_9d130.dir/build.make CMakeFiles/cmTC_9d130.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/shuohong/minisat_work_dir/minisat-master/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-NaICEN']
+        ignore line: [Building CXX object CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/local/bin/c++   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o -c /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Configured with: ../gcc-9.2.0/configure --disable-multilib --enable-languages=c c++]
         ignore line: [Thread model: posix]
         ignore line: [gcc version 9.2.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [ /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/cc1plus -quiet -v -D_GNU_SOURCE /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o -version -fdiagnostics-color=always -o /tmp/ccPRDZ7t.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/cc1plus -quiet -v -D_GNU_SOURCE /home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o -version -fdiagnostics-color=always -o /tmp/ccVMXTOF.s]
         ignore line: [GNU C++14 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
         ignore line: []
@@ -431,15 +431,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 9d3ffc944c44b0d3cf5400e7da2b8e4a]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccPRDZ7t.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccVMXTOF.s]
         ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
         ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [Linking CXX executable cmTC_5b026]
-        ignore line: [/home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b026.dir/link.txt --verbose=1]
-        ignore line: [/usr/local/bin/c++  -v -Wl -v -rdynamic CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_5b026]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_9d130]
+        ignore line: [/home/shuohong/jetbrains/clion-2024.2.5/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d130.dir/link.txt --verbose=1]
+        ignore line: [/usr/local/bin/c++  -v -Wl -v -rdynamic CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9d130]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/local/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper]
@@ -449,13 +449,13 @@ events:
         ignore line: [gcc version 9.2.0 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/libexec/gcc/x86_64-pc-linux-gnu/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5b026' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        link line: [ /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cczuWwrz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5b026 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -v CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_9d130' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNcwvYH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9d130 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -v CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o]
           arg [/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cczuWwrz.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccNcwvYH.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -468,7 +468,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_5b026] ==> ignore
+          arg [cmTC_9d130] ==> ignore
           arg [/lib/../lib64/crt1.o] ==> obj [/lib/../lib64/crt1.o]
           arg [/lib/../lib64/crti.o] ==> obj [/lib/../lib64/crti.o]
           arg [/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o] ==> obj [/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o]
@@ -478,7 +478,7 @@ events:
           arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
           arg [-L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..] ==> dir [/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -489,7 +489,7 @@ events:
           arg [/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o] ==> obj [/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o]
           arg [/lib/../lib64/crtn.o] ==> obj [/lib/../lib64/crtn.o]
         ignore line: [collect2 version 9.2.0]
-        ignore line: [/usr/bin/ld -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cczuWwrz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5b026 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -v CMakeFiles/cmTC_5b026.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/usr/local/libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNcwvYH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_9d130 /lib/../lib64/crt1.o /lib/../lib64/crti.o /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -v CMakeFiles/cmTC_9d130.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/local/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/lib/../lib64/crt1.o] ==> [/lib64/crt1.o]
         collapse obj [/lib/../lib64/crti.o] ==> [/lib64/crti.o]
